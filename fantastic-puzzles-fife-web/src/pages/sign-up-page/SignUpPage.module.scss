@@ -1,0 +1,76 @@
+.sign-up-container {
+  background-color: #121212;
+  display: flex;
+  flex: auto 1 1;
+  flex-direction: row;
+}
+
+.lower-text {
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.side-image {
+  // image taken from https://collections.st-andrews.ac.uk/iiif/2/400184~400184/full/1024,/0/default.jpg
+  // downloaded from gallery https://www.st-andrews.ac.uk/photo-gallery/university-estate/st-salvators-quadrangle/760223
+  // it is free to use as per the university website (first paragraph here): https://www.st-andrews.ac.uk/photo-gallery/
+  background-image: url("../../../public/assets/st-andrews-quad-entrance.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45vw;
+  height: calc(max(100vh, 48.75rem));
+}
+
+.logo {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: floralwhite;
+  display: flex;
+  top: 22%;
+  width: 45vw;
+  height: 9%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text-background {
+  background-color: transparent;
+}
+
+
+.form-area {
+  display: flex;
+  flex: auto 1 1;
+  padding: 5%;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+
+.already-signed-up {
+  margin-top: 1rem;
+}
+
+#sign-up-button {
+  border-radius: 4px;
+  margin-top: 1rem;
+  border-color: white;
+
+  border-width: 1px;
+  line-height: 2rem;
+  font-weight: bold;
+  background-color: white;
+
+}
+
+#sign-up-button:hover {
+  background-color: cornflowerblue;
+  color: white;
+  border-color: cornflowerblue;
+}
+
+#log-in-text {
+  color: white;
+  font-weight: bold;
+}

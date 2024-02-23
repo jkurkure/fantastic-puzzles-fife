@@ -1,0 +1,7 @@
+tests:
+  image: node:latest
+  before_script:
+    - cd fantastic-puzzles-fife-web
+    - npm i
+  script:
+    - npm test

@@ -1,0 +1,31 @@
+.header {
+    font-family: IM Fell DW Pica SC, serif;
+    font-size: 2.0rem;
+    color: #8b0000;
+    margin-left: 10%;
+    padding: 0 1rem; /* add padding to left and right */
+  }
+
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #fff1c0;
+    overflow-y: auto; 
+    margin-left: 10%;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .board {
+    font-family: IM Fell DW Pica SC, serif;
+    font-size: 1.25rem;
+    margin-left: 10%;
+    overflow-y: auto;
+    background-color: #fff1c0;
+    padding: 0 1rem; /* add padding to left and right */
+  }
+  

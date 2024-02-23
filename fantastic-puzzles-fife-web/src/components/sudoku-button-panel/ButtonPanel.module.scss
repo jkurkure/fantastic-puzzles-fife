@@ -1,0 +1,27 @@
+.digit-button {
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.2rem;
+  width: 2.2rem;
+  font-size: 1.3rem;
+  margin-left: 0.7rem;
+  background-color: #fff1c0;
+  font-weight: 700;
+  color: #8b0000;
+}
+
+.digit-button:hover {
+  background-color: lightgrey;
+}
+
+.buttons-area {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

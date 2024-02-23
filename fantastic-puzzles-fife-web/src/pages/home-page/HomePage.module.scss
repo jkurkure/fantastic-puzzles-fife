@@ -1,0 +1,25 @@
+#home-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fff1c0;
+  font-family: IM Fell DW Pica SC, serif;
+  color: #8b0000;
+  height: calc(max(100vh, 44rem));
+}
+
+.title {
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+}
+
+.wrap {
+  margin: 50px auto 0 auto;
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  max-width: 1200px;
+}

@@ -1,0 +1,42 @@
+
+
+#board {
+  display: grid;
+  width: 25rem;
+  height: 25rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid black;
+  color: #8b0000;
+}
+
+.cell:hover {
+  background-color: #ffff8d;
+}
+
+.bottomBorder {
+  border-bottom: 3px solid black;
+}
+
+.rightBorder {
+  border-right: 3px solid black;
+}
+
+.immutable-cell {
+  color: black;
+}
+
+.active-cell {
+  background-color: #fff176;
+}

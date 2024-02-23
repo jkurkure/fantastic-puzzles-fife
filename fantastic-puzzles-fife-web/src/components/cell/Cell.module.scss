@@ -1,0 +1,64 @@
+.cell {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  .numberSmall {
+    font-size: 0.6rem;
+    top: 0.05rem;
+    left: 0.05rem;
+  }
+}
+
+.cell::before {
+  content: attr(data-word-number);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.5em;
+  color: #8b0000;
+  z-index: 1;
+}
+.whiteCell[data-word-number]:hover::after {
+   font-family: "IM Fell DW Pica SC";
+   color: #8b0000;
+   content: attr(data-clue);
+   position: absolute;
+   margin-left: 1rem;
+   left: 30px;
+   width: auto;
+   height: auto;
+   background-color: white;
+   border: 1px solid black;
+   padding: 4px;
+   font-size: 0.5em;
+   z-index: 1000;
+ }
+
+.blackCell {
+  background-color: #fff1c0;
+  border: none
+}
+
+.whiteCell {
+  background-color: #fff;
+  color: #000;
+}
+
+.number {
+  font-size: 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.letter {
+  font-size: 1.5rem;
+}

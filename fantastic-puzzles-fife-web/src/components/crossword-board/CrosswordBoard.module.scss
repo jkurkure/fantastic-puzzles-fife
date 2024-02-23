@@ -1,0 +1,63 @@
+:root {
+  --rows: 15;
+  --cols: 15;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  grid-template-rows: repeat(var(--rows), 1fr);
+  border: 3px solid black;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.crossword-board {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr); /* set the number of rows */
+  grid-template-columns: repeat(5, 1fr); /* set the number of columns */
+}
+
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: calc(100% / var(--cols));
+  height: calc(100% / var(--rows));
+  box-sizing: border-box;
+  border: 1px solid black;
+  grid-area: auto;
+}
+
+
+.blackCell {
+  background-color: #fff1c0;
+  border: none
+}
+
+.activeCell {
+  background-color: yellow;
+}
+
+.number {
+  font-size: 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.clues {
+  font-family: "IM Fell DW Pica SC";
+  color: #8b0000;
+  font-size: 20px;
+}

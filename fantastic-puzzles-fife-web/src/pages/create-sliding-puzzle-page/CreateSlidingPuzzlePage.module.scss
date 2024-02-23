@@ -1,0 +1,96 @@
+.title {
+  font-family: IM Fell DW Pica SC, serif;
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8b0000;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fff1c0;
+  height: calc(max(100vh, 50rem));
+  overflow-y: auto;
+}
+
+.grid-area {
+  display: flex;
+  outline: none;
+}
+
+.buttons-area {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#create-button {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto 5rem;
+  height: 2.1rem;
+  border: 3px solid black;
+  background-color: #fff1c0;
+  justify-content: center;
+  border-radius: 2.5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #8b0000;
+  font-family: IM Fell DW Pica SC;
+  //box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+  //inset -2px -2px 3px rgba(0, 0, 0, .6);
+  //box-shadow: 1.5px 1.5px 0px 0px black;
+}
+
+#create-button:hover {
+  background-color: rgb(255, 241, 119);
+  text-decoration: underline;
+}
+
+.form-area {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  background-color: #fff1c0;
+  flex-direction: row;
+}
+
+.form-control {
+  border: 2px solid #8b0000;
+  border-radius: 4px;
+  background-color: #fff1c0;
+  font-family: "IM Fell DW Pica SC";
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #8b0000;
+  width: 10%;
+  height: 1.75rem;
+}
+
+.form-control:focus {
+  border-color: #8b0000;
+  outline: none;
+}
+
+.label-description {
+  color: #8b0000;
+  font-family: "IM Fell DW Pica SC";
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-right: 6px;
+}
+
+.description {
+  font-family: 'IM Fell DW Pica SC';
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color:#8b0000;
+  margin-bottom: 20px;
+}
